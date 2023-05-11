@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'libresoftdistro.com' > ./out/CNAME",
     "start": "next start",
-    "deploy": "NODE_DEBUG=gh-pages gh-pages -d out -u \"libresoftwaredistribution <libresoftwaredistribution@proton.me>\"",
+    "deploy": "gh-pages -d out -t true",
     "lint": "next lint"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "next": "^13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sharp": "^0.32.1",
     "typescript": "^5.0.4",
     "yarn": "^1.22.19"
   },
