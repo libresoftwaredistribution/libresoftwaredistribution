@@ -3,6 +3,7 @@ const isProd = true
 
 const nextConfig = {
   output: 'export',
+  assetPrefix: 'https://libresoftdistro.com',
   experimental: {
     appDir: true,
   },
