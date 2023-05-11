@@ -1,9 +1,9 @@
 {
   "/(apps)/cyphernotes/page": "/cyphernotes",
-  "/(auth)/reset-password/page": "/reset-password",
   "/(apps)/timidbrowser/page": "/timidbrowser",
+  "/(auth)/reset-password/page": "/reset-password",
   "/(auth)/signin/page": "/signin",
   "/(auth)/signup/page": "/signup",
-  "/api/hello/route": "/api/hello",
-  "/(default)/page": "/"
+  "/(default)/page": "/",
+  "/api/hello/route": "/api/hello"
 }
