@@ -2,10 +2,12 @@
   "name": "open-pro-next",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://libresoftdistro.com/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "NODE_DEBUG=gh-pages gh-pages -d build -u \"libresoftwaredistribution <libresoftwaredistribution@proton.me>\"",
     "lint": "next lint"
   },
   "dependencies": {
@@ -17,7 +19,8 @@
     "next": "^13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "gh-pages": "*"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
