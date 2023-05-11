@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "NODE_DEBUG=gh-pages gh-pages -d build -u \"libresoftwaredistribution <libresoftwaredistribution@proton.me>\"",
+    "deploy": "NODE_DEBUG=gh-pages gh-pages -d .next -u \"libresoftwaredistribution <libresoftwaredistribution@proton.me>\"",
     "lint": "next lint"
   },
   "dependencies": {
