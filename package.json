@@ -2,7 +2,7 @@
   "name": "open-pro-next",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://libresoftdistro.com/",
+  "homepage": "https://libresoftdistro.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
