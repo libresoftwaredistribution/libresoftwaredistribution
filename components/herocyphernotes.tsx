@@ -1,20 +1,9 @@
+import VideoThumb from '@/public/images/hero-image-01.jpg'
+import ModalVideo from '@/components/modal-video'
 import Image from "next/image";
-
-export const metadata = {
-    title: 'Sign Up - Open PRO',
-    description: 'Page description',
-}
-
-import Link from 'next/link'
-
-import Hero from '@/components/hero'
-import Features from '@/components/features'
-import Newsletter from '@/components/newsletter'
-import Zigzag from '@/components/zigzag'
-import Testimonials from '@/components/testimonials'
 import HeroImage from "@/public/images/cyphernotehero2.png";
 
-export default function TimidBrowser() {
+export default function HeroCypherNotes() {
     return (
         <>
             <section>
@@ -43,10 +32,31 @@ export default function TimidBrowser() {
 
                         {/* Section header */}
                         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                            <h1 className="h1 mb-4" data-aos="fade-up">Timid Browser</h1>
+                            <h1 className="h1 mb-4" data-aos="fade-up">Cypher Notes</h1>
                             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-                                Coming soon tm
+                                Cypher notes is modern notes manager for iOS. App respects open formats like GitHub
+                                Flavored Markdown, so you can easily write documents on iPhone. It's simple and blazing
+                                fast!
                             </p>
+                            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+                                <div data-aos="fade-up" data-aos-delay="400">
+                                    <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                                       href="#0">Download</a>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="600">
+                                    <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://github.com/libresoftwaredistribution/cyphersnotes">Github</a>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="600">
+                                    <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://github.com/libresoftwaredistribution/cyphersnotes/issues">Support</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div>
+                            <div className="relative flex justify-center items-center" data-aos="fade-up"
+                                 data-aos-delay="200">
+                                <Image src={HeroImage} width={1024} height={576} alt={"hero"} quality={100}/>
+                            </div>
                         </div>
                     </div>
                 </div>

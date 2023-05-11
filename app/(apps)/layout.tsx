@@ -1,4 +1,5 @@
 import PageIllustration from '@/components/page-illustration'
+import Footer from "@/components/ui/footer";
 
 export default function AppsLayout({
   children,
@@ -6,13 +7,17 @@ export default function AppsLayout({
   children: React.ReactNode
 }) {  
   return (
-    <main className="grow">
+      <>
+          <main className="grow">
 
-      <PageIllustration />
+              <PageIllustration />
 
-      {children}
+              {children}
 
-    </main>
+          </main>
+
+          <Footer />
+      </>
   )
 }
 
