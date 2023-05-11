@@ -16,6 +16,7 @@
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.34",
     "@types/react-dom": "18.0.11",
+    "akamai": "^0.10.1",
     "aos": "^3.0.0-beta.6",
     "gh-pages": "*",
     "next": "^13.4.1",

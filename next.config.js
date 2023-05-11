@@ -8,6 +8,10 @@ const pathPrefix = isProd ? 'https://libresoftdistro.com' : undefined
 const nextConfig = {
   assetPrefix: pathPrefix,
   output: isProd ? 'export' : undefined,
+  images: {
+    loader: "akamai",
+    path: "https://libresoftdistro.com"
+  },
   experimental: {
     appDir: true,
   },
@@ -26,7 +30,7 @@ module.exports = withPlugins([
       strip: true,
       verbose: true,
     },
-    imagesPublicPath: '/_next/static/images/',
+    imagesPublicPath: 'https://libresoftdistro.com/_next/static/images/',
   }],
   nextConfig
 ]);
