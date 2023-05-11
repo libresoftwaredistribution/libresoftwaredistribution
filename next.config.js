@@ -2,13 +2,11 @@
 const isProd = true
 
 const nextConfig = {
-  output: 'export',
-  assetPrefix: 'https://libresoftdistro.com',
+  assetPrefix: isProd ? 'https://libresoftdistro.com' : undefined,
+  output: isProd ? 'export' : undefined,
   experimental: {
     appDir: true,
   },
 }
 
-const withImages = require('next-images')
-
-module.exports = nextConfig, withImages()
+module.exports = nextConfig

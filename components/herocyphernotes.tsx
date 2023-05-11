@@ -54,7 +54,7 @@ export default function HeroCypherNotes() {
                         <div>
                             <div className="relative flex justify-center items-center" data-aos="fade-up"
                                  data-aos-delay="200">
-                                <Image src={'images/cyphernotehero.png'} width={1024} height={576} alt={"hero"} quality={100}/>
+                                <Image src={'/images/cyphernotehero.png'} width={1024} height={576} alt={"hero"} quality={100}/>
                             </div>
                         </div>
                     </div>
