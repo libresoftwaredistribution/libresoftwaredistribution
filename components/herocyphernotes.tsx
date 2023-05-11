@@ -1,7 +1,6 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
 import Image from "next/image";
-import HeroImage from "@/public/images/cyphernotehero2.png";
 
 export default function HeroCypherNotes() {
     return (
@@ -55,7 +54,7 @@ export default function HeroCypherNotes() {
                         <div>
                             <div className="relative flex justify-center items-center" data-aos="fade-up"
                                  data-aos-delay="200">
-                                <Image src={HeroImage} width={1024} height={576} alt={"hero"} quality={100}/>
+                                <Image src={'cyphernotehero.png'} width={1024} height={576} alt={"hero"} quality={100}/>
                             </div>
                         </div>
                     </div>
