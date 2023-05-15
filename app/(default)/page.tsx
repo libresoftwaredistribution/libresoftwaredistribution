@@ -1,13 +1,18 @@
+import ModalVideo from "@/components/modal-video";
+
 export const metadata = {
   title: 'Home - Open PRO',
   description: 'Page description',
 }
 
-import Hero from '@/components/hero'
+import HeroOld from '@/components/heroOld'
 import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
+import ReactDOM from 'react-dom'
+
+import thumbnail from "../../public/images/hero-image-01.jpeg"
 
 export default function Home() {
   return (
@@ -40,8 +45,27 @@ export default function Home() {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
               <h1 className="h1 mb-4" data-aos="fade-up">Libre Software Distribution FZ-LLC</h1>
+              <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="100">
+                You favourite open source apps with extra polish !
+              </p>
               <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-                Site is under active development. Coming soon tm
+                <ModalVideo
+                    thumb={thumbnail}
+                    thumbWidth={1024}
+                    thumbHeight={576}
+                    thumbAlt="Modal video thumbnail"
+                    video="/videos/video.mp4"
+                    videoWidth={1920}
+                    videoHeight={1080} />
+              </p>
+              <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
+                Open-source software (OSS) is computer software that is released under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software and its source code to anyone and for any purpose. Open-source software may be developed in a collaborative, public manner. Open-source software is a prominent example of open collaboration, meaning any capable user is able to participate online in development, making the number of possible contributors indefinite. The ability to examine the code facilitates public trust in the software.
+              </p>
+              <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="300">
+                Open-source software development can bring in diverse perspectives beyond those of a single company. A 2008 report by the Standish Group stated that adoption of open-source software models has resulted in savings of about $60 billion per year for consumers.
+              </p>
+              <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="400">
+                Open source code can be used for studying and allows capable end users to adapt software to their personal needs in a similar way user scripts and custom style sheets allow for web sites, and eventually publish the modification as a fork for users with similar preferences, and directly submit possible improvements as pull requests.
               </p>
             </div>
           </div>
