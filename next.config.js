@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = false
+const isProd = true
 const pathPrefix = isProd ? 'https://libresoftdistro.com' : undefined
 
 const nextConfig = {
