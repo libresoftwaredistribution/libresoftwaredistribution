@@ -28,20 +28,20 @@ export default function Header() {
                   Cypher Notes
                 </Link>
               </li>
+              {/*<li>*/}
+              {/*  <Link*/}
+              {/*    href="timidbrowser"*/}
+              {/*    className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"*/}
+              {/*  >*/}
+              {/*    Timid browser*/}
+              {/*  </Link>*/}
+              {/*</li>*/}
               <li>
-                <Link
-                  href="timidbrowser"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Timid browser
-                </Link>
-              </li>
-              <li>
-                <Link href="https://apps.apple.com/us/developer/sam-oakley/id591613205"
+                <Link href="mailto:contact@libredistrosoft.com"
                       className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
                       target="_blank"
                 >
-                  Download
+                  Contact us
                 </Link>
               </li>
             </ul>
