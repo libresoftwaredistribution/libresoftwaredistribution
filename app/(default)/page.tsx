@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Timid Browser',
-  description: 'Modern notes manager for iOS',
+  title: 'libreSoftDistro',
+  description: 'Lovingly, expertly crafted software',
 }
 
 import Features from '@/components/features'
