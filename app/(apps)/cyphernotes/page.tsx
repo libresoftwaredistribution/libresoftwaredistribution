@@ -18,11 +18,14 @@ const featureDetails = [
         title: "Store images & plain text",
         subtitle: "Seamless exchange of plain text files, like Markdown or Fountain, between sandboxed applications."
     },
-    {title: "Store notes secure with", subtitle: "Encrypted Text Bundle is Text Pack, but encrypted with RNCryptor."},
-    {title: "Markdown-first", subtitle: " Additionally supports plaintext and RTF files."},
-    {title: "Fast and lightweight", subtitle: "Handles 10k+ files without breaking sweat"},
-    {title: "Access anywhere", subtitle: "Sync with iCloud Drive or Dropbox or even with Github repository."},
-    {title: "Syntax highlighting", subtitle: " within code blocks. Supports over 170 programming languages"},
+    {
+        title: "Store notes secure with",
+        subtitle: "Encrypted Text Bundle is Text Pack, but encrypted with RNCryptor."
+    },
+    {
+        title: "Markdown-first",
+        subtitle: " Additionally supports plaintext and RTF files."
+    },
 ]
 
 const zigzagItems = [
@@ -56,9 +59,11 @@ export default function CypherNotes() {
         <>
             <Hero
                 title={"Cypher Notes"}
-                subtitle={"Cypher notes is modern notes manager for iOS. App respects open formats like GitHub Flavored Markdown, so you can easily write documents on iPhone. It's simple and blazing fast!"}
-                downloadURL={"https://testflight.apple.com/join/MSYsRXau"}
-                supportURL={"https://github.com/libresoftwaredistribution/cyphersnotes/issues"}
+                subtitle={"Minimalist, Secure, Powerful, Notes"}
+                primaryTitle={"Download"}
+                primaryURL={"https://apps.apple.com/us/app/cypher-notes-by-lsd/id6461458801"}
+                secondaryTitle={"Support"}
+                secondaryURL={"https://github.com/libresoftwaredistribution/libresoftwaredistribution.github.io/issues"}
                 heroImage={heroImage}
             />
             <Features

@@ -50,8 +50,8 @@ export default function TimidBrowser() {
             <Hero
                 title={"Timid Browser"}
                 subtitle={"When is comes to privacy, compartmentalization is important tool in the tool box. Separate browser for your work stuff, personal & anon stuff is wise way to go. If you love Brave browser and you wish you could have another instance of it on your phone, that's where Timid comes in."}
-                downloadURL={"https://testflight.apple.com/join/mZbcqiQ0"}
-                supportURL={"https://github.com/libresoftwaredistribution/timid-browser-ios/issues"}
+                primaryURL={"https://testflight.apple.com/join/mZbcqiQ0"}
+                secondaryURL={"https://github.com/libresoftwaredistribution/timid-browser-ios/issues"}
                 heroImage={heroImage}
             />
             <Features

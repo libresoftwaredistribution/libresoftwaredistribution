@@ -50,8 +50,10 @@ export default function TimidBrowser() {
         <Hero
             title={"libreSoftDistro"}
             subtitle={"Lovingly, expertly crafted software is the epitome of technological excellence infused with a heartfelt passion for the craft. The attention to detail is unparalleled, with each feature carefully designed and meticulously implemented to ensure a seamless user experience."}
-            downloadURL={"mailto:libresoftdistrolab@protonmail.com"}
-            supportURL={"mailto:libresoftdistrolab@protonmail.com"}
+            primaryTitle={"Book free consultation"}
+            primaryURL={"mailto:libresoftdistrolab@protonmail.com"}
+            secondaryTitle={"Support"}
+            secondaryURL={"mailto:libresoftdistrolab@protonmail.com"}
             heroImage={heroImage}
         />
         <Features
