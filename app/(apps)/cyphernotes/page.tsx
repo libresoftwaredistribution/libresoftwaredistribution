@@ -15,16 +15,16 @@ import featureImage02 from '../../../public/images/features-03-image-02.png'
 
 const featureDetails = [
     {
-        title: "Store images & plain text",
-        subtitle: "Seamless exchange of plain text files, like Markdown or Fountain, between sandboxed applications."
+        title: "Store plain text",
+        subtitle: "Everything you need, nothing you dont. Simple plain text notes."
     },
     {
-        title: "Store notes secure with",
-        subtitle: "Encrypted Text Bundle is Text Pack, but encrypted with RNCryptor."
+        title: "Store notes securely",
+        subtitle: "Private, secure, encrypted with RNCryptor."
     },
     {
-        title: "Markdown-first",
-        subtitle: " Additionally supports plaintext and RTF files."
+        title: "Upcoming",
+        subtitle: "Full Markdown support soon™"
     },
 ]
 
@@ -32,23 +32,23 @@ const zigzagItems = [
     {
         title: "Plain text",
         subtitle: "Most popular plain text formats",
-        body: "Markdown, plaintext and RTF files. As well as inline support of images via TextBundle and EncryptedTextBundle containers.",
+        body: "Currently support plain text files. Full Markdown support on the road map",
         image: featureImage01,
         list: [
-          "Syntax highlighting within code blocks",
-          "Supports over 170 programming languages",
-          "External editor support",
+          "Simple",
+          "Intuitive",
+          "Elegant",
         ]
     },
     {
-        title: "Access anywhere",
-        subtitle: "All the sync methods !",
-        body: "Support for variety of sync methods. Including iCloud Drive, DropBox and even Github. ",
+        title: "Secure",
+        subtitle: "At most focus on security",
+        body: "No key / password is ever stored anywhere. Not even in keychain or iCloud.",
         image: featureImage02,
         list: [
-            "iCloud",
-            "DropBox",
-            "Github",
+            "AES256",
+            "PBKDF2",
+            "Open Source",
         ]
     },
 ]
@@ -59,7 +59,7 @@ export default function CypherNotes() {
         <>
             <Hero
                 title={"Cypher Notes"}
-                subtitle={"Minimalist, Secure, Powerful, Notes"}
+                subtitle={"Simple, intuitive, elegant note taking app. Heavily focused on privacy and security. No password or key is ever stored anywhere."}
                 primaryTitle={"Download"}
                 primaryURL={"https://apps.apple.com/us/app/cypher-notes-by-lsd/id6461458801"}
                 secondaryTitle={"Support"}
